@@ -77,7 +77,7 @@
 
 
 
-.topBar {
+.top-bar {
     /* Display rules */
     display: flex;
 
@@ -85,7 +85,7 @@
     background-color: var(--color_bw_90);
 }
 
-.topBar>a {
+.top-bar>a {
     /* Display rules */
     display: block;
 
@@ -100,29 +100,49 @@
     transition: transform var(--duration_6);
 }
 
-.topBar>a:hover {
+.top-bar>a:hover {
     /* Animation rules */
     transform: rotate(720deg);
 }
 
-.topBar>a>img {
+.top-bar>a>img {
     /* Size rules */
     height: var(--size_9);
     width: var(--size_9);
 }
 
-.topBar>h1 {
+.top-bar>h1 {
     /* Display rules */
     display: flex;
 
     /* Position rules */
-    justify-content: left;
     align-items: center;
+    justify-content: left;
     padding: var(--size_4);
 
     /* Text rules */
     font-weight: 400;
 }
+
+.welcome-img {
+    /* Size rules */
+    width: 100vw;
+}
+
+.welcome-txt {
+    /* Text rules */
+    font-weight: 400;
+    text-align: center;
+
+    /* Position rules */
+    padding: var(--size_3);
+    margin-top: -4px; /* Removes mystery whitespace */
+
+    /* Color rules */
+    background-color: var(--color_bw_90);
+}
+
+
 
 
 

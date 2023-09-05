@@ -23,12 +23,16 @@
 
 <body>
     <!-- Header with the title and logo -->
-    <header class="topBar">
+    <header class="top-bar">
         <a title="Go to homepage" href="index.php">
             <img src="images/logos/logo_small.png">
         </a>
         <h1>Shunji Railways</h1>
     </header>
+
+    <!-- Welcome section -->
+    <img class="welcome-img" src="images/webpages/shunji_train_1.jpg"/>
+    <h2 class="welcome-txt">Welcome to Shunji Railways</h2>
 </body>
 
 </html>
