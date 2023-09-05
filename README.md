@@ -4,7 +4,7 @@
 Welcome to the new Shunji Railways repository
 
 ## About this project
-The website of Shunji Railways is where travellers can find everything they need for there next trip. Whether they need to know when a train departs, find safety info about our stations, or want to buy a souvenir online, ths website is the place for that.
+The website of Shunji Railways is where travellers can find everything they need for their next trip. Whether they need to know when a train departs, find safety info about our stations, or want to buy a souvenir online, ths website is the place for that.
 
 ## Project details
 - Check out the project's current status at our [Roadmap](https://github.com/RubenTheCoder/Shunji-Railways/wiki/Roadmap) page.
