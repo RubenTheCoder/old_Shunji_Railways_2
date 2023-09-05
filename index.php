@@ -12,6 +12,8 @@
     <!-- Sets the viewport scale to be the size of the screen -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <link rel="icon" type="image/x-icon" href="images/favicons/favicon.ico">
+
     <title>Travel the World | Shunji Railways</title>
 </head>
 
