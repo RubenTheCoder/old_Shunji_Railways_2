@@ -8,6 +8,7 @@ The website of Shunji Railways is where travellers can find everything they need
 
 ## Project details
 - 📊 Check out the project's current status at our [Roadmap](https://github.com/RubenTheCoder/Shunji-Railways/wiki/Roadmap) page.
+- 📦 Details about pushing and pulling code can be found at the [Contribution Details](https://github.com/RubenTheCoder/Shunji-Railways/wiki/Contribution-Details) page
 - 🔧 Technical details about the project can be found on the [Project Documentation](https://github.com/RubenTheCoder/Shunji-Railways/wiki/Project-Documentation) page.
 - 📖 For code reference, check out the [Code Reference](https://github.com/RubenTheCoder/Shunji-Railways/wiki/Code-Reference) page.
 - ℹ️ Further information can be found on the [Shunji Railways Wiki](https://github.com/RubenTheCoder/Shunji-Railways/wiki) page.
