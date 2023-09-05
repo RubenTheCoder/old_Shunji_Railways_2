@@ -1,0 +1,131 @@
+/* CSS style settings */
+:root {
+    /* Size presets */
+    --size_1: 1px;
+    --size_2: 2px;
+    --size_3: 4px;
+    --size_4: 8px;
+    --size_5: 12px;
+    --size_6: 16px;
+    --size_7: 24px;
+    --size_8: 32px;
+    --size_9: 48px;
+    --size_10: 64px;
+    --size_11: 96px;
+    --size_12: 128px;
+    --size_13: 192px;
+    --size_14: 256px;
+    --size_15: 384px;
+    --size_16: 512px;
+    --size_17: 640px;
+    --size_18: 768px;
+    --size_19: 1024px;
+    --size_20: 1536px;
+
+    /* Time presets */
+    --duration_1: 0.25s;
+    --duration_2: 0.5s;
+    --duration_3: 0.75s;
+    --duration_4: 1s;
+    --duration_5: 1.25s;
+    --duration_6: 1.5s;
+    --duration_7: 2s;
+
+    /* Color presets */
+    --color_bw_0: hsl(230, 15%, 0%);
+    --color_bw_5: hsl(228, 14%, 5%);
+    --color_bw_10: hsl(226, 13%, 10%);
+    --color_bw_15: hsl(224, 12%, 15%);
+    --color_bw_20: hsl(222, 11%, 20%);
+    --color_bw_25: hsl(220, 10%, 25%);
+    --color_bw_30: hsl(218, 9%, 30%);
+    --color_bw_35: hsl(216, 8%, 35%);
+    --color_bw_40: hsl(214, 7%, 40%);
+    --color_bw_45: hsl(212, 6%, 45%);
+    --color_bw_50: hsl(210, 5%, 50%);
+    --color_bw_55: hsl(208, 6%, 55%);
+    --color_bw_60: hsl(206, 7%, 60%);
+    --color_bw_65: hsl(204, 8%, 65%);
+    --color_bw_70: hsl(202, 9%, 70%);
+    --color_bw_75: hsl(200, 10%, 75%);
+    --color_bw_80: hsl(198, 11%, 80%);
+    --color_bw_85: hsl(196, 12%, 85%);
+    --color_bw_90: hsl(194, 13%, 90%);
+    --color_bw_95: hsl(192, 14%, 95%);
+    --color_bw_100: hsl(190, 15%, 100%);
+
+}
+
+
+
+
+
+/* Applies to all elements */
+* {
+    /* Display rules*/
+    box-sizing: border-box;
+
+    /* Position rules */
+    margin: 0;
+    padding: 0;
+
+    /* Font rules */
+    font-family: 'Segoe UI', sans-serif;
+}
+
+
+
+
+
+.topBar {
+    /* Display rules */
+    display: flex;
+
+    /* Color rules */
+    background-color: var(--color_bw_90);
+}
+
+.topBar>a {
+    /* Display rules */
+    display: block;
+
+    /* Size rules */
+    height: var(--size_9);
+    width: var(--size_9);
+
+    /* Position rules */
+    margin: var(--size_4);
+
+    /* Animation rules */
+    transition: transform var(--duration_6);
+}
+
+.topBar>a:hover {
+    /* Animation rules */
+    transform: rotate(720deg);
+}
+
+.topBar>a>img {
+    /* Size rules */
+    height: var(--size_9);
+    width: var(--size_9);
+}
+
+.topBar>h1 {
+    /* Display rules */
+    display: flex;
+
+    /* Position rules */
+    justify-content: left;
+    align-items: center;
+    padding: var(--size_4);
+
+    /* Text rules */
+    font-weight: 400;
+}
+
+
+
+
+
+/* File created by RubenTheCoder */

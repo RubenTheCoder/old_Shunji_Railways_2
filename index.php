@@ -2,6 +2,10 @@
 <meta charset="UTF-8">
 <html lang="en-us">
 
+
+
+
+
 <head>
     <link rel="stylesheet" href="default.css">
 
@@ -11,8 +15,24 @@
     <title>Travel the World | Shunji Railways</title>
 </head>
 
-<body>
 
+
+
+
+<body>
+    <!-- Header with the title and logo -->
+    <header class="topBar">
+        <a title="Go to homepage" href="index.php">
+            <img src="images/logos/logo_small.png">
+        </a>
+        <h1>Shunji Railways</h1>
+    </header>
 </body>
 
 </html>
+
+
+
+
+
+<!-- File created by RubenTheCoder -->
