@@ -184,6 +184,15 @@ main {
 .welcome-banner>img {
     /* Size rules */
     width: 100%;
+
+    /* Position rules */
+    max-height: var(--size_16);
+
+    /* Image rules */
+    object-fit: contain;
+
+    /* Color rules */
+    background-color: var(--color_bw_75);
 }
 
 .welcome-banner>h2 {
@@ -214,34 +223,18 @@ main {
 }
 
 .home-article>h3 {
-    /* Position rules */
-    padding: var(--size_3);
-
     /* Font rules */
     font-weight: 500;
 }
 
 .home-article>h4 {
-    /* Position rules */
-    padding: var(--size_3);
-
     /* Font rules */
     font-weight: 600;
-}
-
-.home-article>p {
-    /* Position rules */
-    padding: var(--size_3);
 }
 
 .home-article>ul {
     /* Position rules */
     list-style-position: inside;
-}
-
-.home-article li {
-    /* Position rules */
-    padding: var(--size_3);
 }
 
 
