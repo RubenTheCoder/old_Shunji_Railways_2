@@ -33,19 +33,39 @@
 
 
     <main>
-        <!-- Welcome section -->
+        <!-- Welcome banner -->
         <aside class="welcome-banner">
             <img src="images/webpages/shunji_train_1.jpg" />
             <h2>Welcome to Shunji Railways</h2>
             <p>Here you can find information for your next travel with us.</p>
         </aside>
 
+        <!-- Basic info article -->
+        <article class="home-article">
+            <h3>How to use our trains</h3>
+            <ul>
+                <li>
+                    When you enter the station, you come across electronic gates.
+                    Hold your UnionCard against it to enter the station and start your travel.
+                </li>
+                <li>
+                    From here, step onboard of your train.
+                    To find out which train you need,
+                    use the route guides located on the station.
+                </li>
+                <li>
+                    Travel with the train towards your destination.
+                    From here, take your transfer or exit the station using the electronic gates once again
+                </li>
+            </ul>
+        </article>
+
         <!-- Safety article -->
         <article class="home-article">
             <h3>Safety</h3>
             <p>
                 At Shunji Railways, we put safety first.
-                This means we have some rules for our stations and trains
+                This means we have some rules for our stations and trains.
             </p>
             <h4>At the station</h4>
             <ul>
@@ -69,11 +89,13 @@
                     Hold onto something when standing inside the train,
                     or you might fall over.
                 </li>
-                <li>Don't open the doors until the train has fully stopped</li>
+                <li>
+                    Don't open the doors until the train has fully stopped.
+                </li>
                 <li>
                     If theres a emergency,
                     contact our train staff using the emergency panels located next to the doors.
-                    In live threatening situations, call the emergency number (112).
+                    In life threatening situations, call the emergency number (112).
                 </li>
             </ul>
         </article>
@@ -83,7 +105,7 @@
             <h3>Upcoming website updates</h3>
             <ul>
                 <li>A special page to plan your route</li>
-                <li>A contact and support page</li> 
+                <li>A contact and support page</li>
             </ul>
         </article>
     </main>

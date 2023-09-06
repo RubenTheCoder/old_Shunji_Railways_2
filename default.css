@@ -106,7 +106,7 @@ html {
 body {
     /* Display rules */
     overflow-x: hidden;
-    
+
     /* Color rules*/
     background-color: var(--color_bw_65);
 }
@@ -205,7 +205,7 @@ main {
 
 .home-article {
     /* Position rules */
-    padding: 0 var(--size_4) var(--size_5) var(--size_4);
+    padding: 0 var(--size_4) var(--size_8) var(--size_4);
 }
 
 .home-article>h3 {
