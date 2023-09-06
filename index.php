@@ -124,7 +124,7 @@
             </li>
         </ul>
 
-        <!-- Address -->
+        <!-- Address info -->
         <h2>Address</h2>
         <ul>
             <li>
@@ -133,7 +133,7 @@
                 <address>City: Globalpolis, Emeraldia</address>
         </ul>
 
-        <!-- GitHub -->
+        <!-- Website info -->
         <h2>Website info</h2>
         <ul>
             <li>

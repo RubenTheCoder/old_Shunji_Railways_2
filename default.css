@@ -97,7 +97,7 @@
 
 
 
-
+/* Document begin */
 html {
     /* Display rules */
     overflow-x: hidden;
@@ -112,6 +112,8 @@ body {
 }
 
 
+
+/* Header top bar */
 .top-bar {
     /* Display rules */
     display: flex;
@@ -164,6 +166,7 @@ body {
 
 
 
+/* Main page */
 main {
     /* Color rules */
     background-color: var(--color_bw_100);
@@ -172,6 +175,7 @@ main {
 
 
 
+/* Welcome banner */
 .welcome-banner {
     /* Position rules */
     padding-bottom: var(--size_5);
@@ -203,6 +207,7 @@ main {
 
 
 
+/* Articles on homepage */
 .home-article {
     /* Position rules */
     padding: 0 var(--size_4) var(--size_8) var(--size_4);
@@ -241,6 +246,7 @@ main {
 
 
 
+/* Footer */
 .default-footer {
     /* Position rules */
     padding: 0 var(--size_6);
