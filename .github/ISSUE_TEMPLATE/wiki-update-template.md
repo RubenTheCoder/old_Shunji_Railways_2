@@ -7,6 +7,11 @@ assignees: ''
 
 ---
 
+Update details:
+- Detail 1
+- Detail 2
+- Detail 3
+
 To do:
 
 - [ ] Wiki update 1
