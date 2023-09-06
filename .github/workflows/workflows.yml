@@ -18,7 +18,7 @@ jobs:
         run: echo "::set-output name=column::${{ github.event.project_card.column_name }}"
         
       - name: Close Issue
-        if: steps.check_column.outputs.column == 'Done' || steps.check_column.outputs.column == 'Solved'
+        if: steps.check_column.outputs.column == 'Done' || steps.check_column.outputs.column == 'Solved issues'
         run: |
           gh issue close ${{ github.event.issue.number }}
         env:
