@@ -6,6 +6,7 @@ labels: enhancement
 assignees: ''
 
 ---
+
 Update details:
 - Update detail 1
 - Update detail 2

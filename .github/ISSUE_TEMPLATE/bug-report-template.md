@@ -2,7 +2,7 @@
 name: Bug report template
 about: Used to report and find bugs to be fixed
 title: "[BUG]"
-labels: bug
+labels: bug, question
 assignees: ''
 
 ---
