@@ -54,6 +54,25 @@
     --color_bw_95: hsl(192, 14%, 95%);
     --color_bw_100: hsl(190, 15%, 100%);
 
+    --color_link_10: hsl(180, 88%, 10%);
+    --color_link_20: hsl(185, 86%, 20%);
+    --color_link_30: hsl(190, 84%, 30%);
+    --color_link_40: hsl(195, 82%, 40%);
+    --color_link_50: hsl(200, 80%, 50%);
+    --color_link_60: hsl(205, 82%, 60%);
+    --color_link_70: hsl(210, 84%, 70%);
+    --color_link_80: hsl(215, 86%, 80%);
+    --color_link_90: hsl(220, 88%, 90%);
+
+    --color_link_active_10: hsl(220, 78%, 10%);
+    --color_link_active_20: hsl(225, 76%, 20%);
+    --color_link_active_30: hsl(230, 74%, 30%);
+    --color_link_active_40: hsl(235, 72%, 40%);
+    --color_link_active_50: hsl(240, 70%, 50%);
+    --color_link_active_60: hsl(245, 72%, 60%);
+    --color_link_active_70: hsl(250, 74%, 70%);
+    --color_link_active_80: hsl(255, 76%, 80%);
+    --color_link_active_90: hsl(260, 78%, 90%);
 }
 
 
@@ -71,6 +90,8 @@
 
     /* Font rules */
     font-family: 'Segoe UI', sans-serif;
+    font-style: normal;
+    text-decoration: none;
 }
 
 
@@ -105,13 +126,13 @@
     transform: rotate(720deg);
 }
 
-.top-bar>a>img {
+.top-bar>a img {
     /* Size rules */
     height: var(--size_9);
     width: var(--size_9);
 }
 
-.top-bar>h1 {
+.top-bar h1 {
     /* Display rules */
     display: flex;
 
@@ -142,7 +163,49 @@
     background-color: var(--color_bw_90);
 }
 
+.default-footer {
+    /* Color rules */
+    background-color: var(--color_bw_20);
+}
 
+.default-footer>h2{
+    /* Position rules */
+    padding: var(--size_3);
+
+    /* Color rules */
+    color: var(--color_bw_90);
+
+    /* Font rules */
+    font-weight: 400;
+}
+
+.default-footer ul {
+    /* Position rules */
+    margin-bottom: var(--size_5);
+}
+
+.default-footer li {
+    /* Position rules */
+    padding: var(--size_2) var(--size_3);
+
+    /* Color rules */
+    color: var(--color_bw_90);
+}
+
+.default-footer li>a {
+    /* Color rules */
+    color: var(--color_link_70);
+}
+
+.default-footer li>a:hover {
+    /* Color rules */
+    color: var(--color_link_active_80);
+}
+
+.default-footer li>a:active {
+    /* Color rules */
+    color: var(--color_link_active_60);
+}
 
 
 

@@ -30,9 +30,33 @@
         <h1>Shunji Railways</h1>
     </header>
 
-    <!-- Welcome section -->
-    <img class="welcome-img" src="images/webpages/shunji_train_1.jpg"/>
-    <h2 class="welcome-txt">Welcome to Shunji Railways</h2>
+    <main>
+        <!-- Welcome section -->
+        <img class="welcome-img" src="images/webpages/shunji_train_1.jpg" />
+        <h2 class="welcome-txt">Welcome to Shunji Railways</h2>
+    </main>
+
+    <footer class="default-footer">
+        <!-- Contact info -->
+        <h2>Contact info</h2>
+        <ul>
+            <li><address>Tel: 01-5178321109</address></li>
+            <li><address>Email: shunjirailways@globanet.com</address></li>
+        </ul>
+
+        <!-- Address -->
+        <h2>Address</h2>
+        <ul>
+            <li><address>Street: Nichibotsu 5712, 7251CR</address>
+            <li><address>City: Globalpolis, Emeraldia</address>
+        </ul>
+
+        <!-- GitHub -->
+        <h2>Website info</h2>
+        <ul>
+            <li><a title="Open GitHub" href="https://github.com/RubenTheCoder/Shunji-Railways">Shunji Railways on GitHub</a>
+        </ul>
+    </footer>
 </body>
 
 </html>
