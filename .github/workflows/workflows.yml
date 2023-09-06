@@ -1,0 +1,25 @@
+name: Close Issues on Project Move
+
+on:
+  project_card:
+    types:
+      - moved
+  issues:
+    types:
+      - moved
+
+jobs:
+  close_issue:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check if issue moved to "Done" or "Solved"
+        id: check_column
+        run: echo "::set-output name=column::${{ github.event.project_card.column_name }}"
+        
+      - name: Close Issue
+        if: steps.check_column.outputs.column == 'Done' || steps.check_column.outputs.column == 'Solved'
+        run: |
+          gh issue close ${{ github.event.issue.number }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
