@@ -40,7 +40,7 @@
             <p>Here you can find information for your next travel with us.</p>
         </aside>
 
-        <!-- Safety Article -->
+        <!-- Safety article -->
         <article class="home-article">
             <h3>Safety</h3>
             <p>
@@ -75,6 +75,15 @@
                     contact our train staff using the emergency panels located next to the doors.
                     In live threatening situations, call the emergency number (112).
                 </li>
+            </ul>
+        </article>
+
+        <!-- Upcoming web updates article -->
+        <article class="home-article">
+            <h3>Upcoming website updates</h3>
+            <ul>
+                <li>A special page to plan your route</li>
+                <li>A contact and support page</li> 
             </ul>
         </article>
     </main>
